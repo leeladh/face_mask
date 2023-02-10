@@ -18,7 +18,7 @@ Using `build_data.py` to extract faces from raw dataset and resize to 64x64.
 Clone the repo
 
 ```
-git clone git@github.com:ksvbka/face-mask-detector.git
+git clone https://github.com/leeladh/face_mask
 ```
 cd to project folder and create virtual env
 
@@ -33,7 +33,7 @@ Download raw dataset and execute script build_dataset.py to preprare dataset for
 cd data
 bash download_data.sh
 cd -
-python3 build_dataset.py --data-dir data/dataset_raw/ --output-dir data/64x64_dataset
+python3 video.py --data-dir data/dataset_raw/ --output-dir data/64x64_dataset
 ```
 ## Training
 
